@@ -8,7 +8,7 @@
 import subprocess
 
 # Replace with the appropriate interface (e.g., eth0)
-interface = "wlp2s0"
+interface = "eth0"
 
 # Run netdiscover with the specified interface
 try:
