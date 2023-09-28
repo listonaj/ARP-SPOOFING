@@ -3,7 +3,7 @@
 # Make sure to install the dsniff package if it's not already installed, as arpspoof is part of that package. 
 # Here's a Python script to execute the arpspoof command:
 # you need to install dsniff. It contains the arpsoff tool 
-# Remember to use this script responsibly and in compliance with any relevant laws and policies, as network scanning can raise legal and ethical considerations.
+# Remember to use this script responsibly and in compliance with any relevant laws and policies.
 
 
 import subprocess

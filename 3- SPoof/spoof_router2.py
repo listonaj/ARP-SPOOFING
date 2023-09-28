@@ -1,5 +1,5 @@
 # To execute the arpspoof command with the order of target IP addresses reversed, you can modify the script as follows:
-# Remember to use this script responsibly and in compliance with any relevant laws and policies, as network scanning can raise legal and ethical considerations.
+# Remember to use this script responsibly and in compliance with any relevant laws and policies.
 
 
 import subprocess
