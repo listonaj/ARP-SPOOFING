@@ -26,5 +26,3 @@ def execute_arpspoof(interface, victim_ip, router_ip):
         print(f"Error: {e}")
 
 execute_arpspoof(interface, victim_ip, router_ip)
-
-

@@ -24,3 +24,6 @@ def execute_arpspoof(interface, router_ip, victim_ip):
 execute_arpspoof(interface, router_ip, victim_ip)
 
 
+# once done with the spoof don't forget to bring the arp table back to normal as the victim will not be able to connect to the net anymore.
+# thankfully, arpspoof command do it for us, just type CTRL+C to end the process running on the terminal executing the arpspoof (in both terminal)
+
