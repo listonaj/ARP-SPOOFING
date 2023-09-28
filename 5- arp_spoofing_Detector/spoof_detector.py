@@ -1,5 +1,7 @@
 # make sure you installed the module scapy <pip install scapy>
-# Detecting ARP spoofing using a Python script and dsniff can be a bit more involved, as it requires analyzing network traffic in real-time to identify suspicious ARP activity. One way to do this is by monitoring ARP traffic and checking for anomalies. 
+# Detecting ARP spoofing using a Python script and dsniff can be a bit more involved, 
+# as it requires analyzing network traffic in real-time to identify suspicious ARP activity.
+# One way to do this is by monitoring ARP traffic and checking for anomalies. 
 # Below is a Python script that uses the Scapy library to help detect ARP spoofing:
 
 import time
@@ -42,3 +44,10 @@ if __name__ == "__main__":
         monitor_arp()
     except KeyboardInterrupt:
         print("ARP spoofing detection script terminated.")
+
+
+### This script continuously monitors ARP traffic and maintains an ARP cache of known IP-to-MAC mappings. 
+# If it detects a change in the MAC address associated with a known IP address, it raises an alert, as this could indicate ARP spoofing.
+# Keep in mind that ARP spoofing detection is a complex task, and this script is a simple example. 
+# For robust ARP spoofing detection in a production environment, you may want to consider more advanced solutions and intrusion detection systems. 
+# Additionally, you should run this script with appropriate permissions (e.g., as a superuser) to capture network traffic effectively.
